@@ -66,6 +66,7 @@ class ZoneClimMode(Enum):
     HEATING_FLOOR = 4
     REFRESHING_FLOOR = 5 
     HEATING_FLOOR_2 = 6
+    FAN_ONLY = 7
 
     def __int__(self):
         return self.value
@@ -150,6 +151,7 @@ class GlobalMode(Enum):
     HEATING_FLOOR = 4
     REFRESHING_FLOOR = 5
     HEATING_FLOOR_2 = 6
+    FAN_ONLY = 7
 
     def __int__(self):
         return self.value
