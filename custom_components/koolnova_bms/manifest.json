@@ -10,7 +10,7 @@
     "quality_scale": "silver",
     "loggers": ["koolnova"],
     "requirements": [
-	"pymodbus==3.11.1",
+	"pymodbus",
 	"pyserial==3.5"	
     ],
     "version": "0.2.6"
